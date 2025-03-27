@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../assets/profile.png";
 
 const Hero = () => {
   return (
@@ -27,9 +28,9 @@ const Hero = () => {
       {/* Right side: Image */}
       <div className="md:w-1/2 mb-10 md:mb-0 flex justify-center">
         <img
-          src="https://via.placeholder.com/350x400" // Replace this with your image
+          src={img} // Replace this with your image
           alt="Adnane"
-          className="rounded-lg shadow-lg max-w-[350px]"
+          className=" shadow-lg "
         />
       </div>
     </div>
