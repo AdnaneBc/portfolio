@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="min-h-140 bg-[#0B0D17] flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-8 text-white max-w-7xl mx-auto">
+    <div className="min-h-140 flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-8 text-white max-w-7xl mx-auto">
       {/* Left side: Text */}
       <div className="md:w-1/2">
         <h1 className="text-5xl md:text-7xl font-small text-transparent bg-clip-text color-gradient-title">

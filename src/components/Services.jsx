@@ -23,8 +23,8 @@ const services = [
 
 export default function MyServices() {
   return (
-    <section className="bg-[#0f111a] py-16 px-4">
-      <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mb-20 text-center">
+    <section className="bg-transparent py-16 px-4">
+      <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 mb-20 text-center tracking-widest">
         MY SERVICES
       </h2>
 
@@ -52,9 +52,7 @@ export default function MyServices() {
                     <div className="flex items-start gap-4">
                       {service.icon}
                       <div>
-                        <h3
-                          className="text-2xl tracking-widest mb-1"
-                        >
+                        <h3 className="text-2xl tracking-widest mb-1">
                           {service.title}
                         </h3>
                         <p className="text-sm text-gray-400">

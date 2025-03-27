@@ -12,6 +12,9 @@
   .color-gradient-title {
     @apply bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500;
   }
+  .gradient-bg {
+    @apply bg-gradient-to-r bg-gradient-to-br from-[#0B0D17] via-[#0C0F1F] to-[#131A2F];
+  }
 }
 
 body {
