@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pinyon+Script&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-logo: "Pinyon Script", cursive;
+  --color-oxford-blue: #111d43;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer components {
+  .color-gradient-title {
+    @apply bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500;
+  }
+}
+
+body {
+  @apply font-sans;
+}
