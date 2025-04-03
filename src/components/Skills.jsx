@@ -55,30 +55,30 @@ const skills = [
     image: "/assets/skills/Docker.png",
     link: "https://www.docker.com/",
   },
-
   {
     name: "GitHub",
     image: "/assets/skills/GitHub.png",
     link: "https://github.com/",
   },
 ];
+
 const Skills = () => {
   return (
-    <section className=" py-16 text-white text-center">
-      <h2 className="text-3xl font-bold mb-12">
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 tracking-widest ">
+    <section className="py-12 md:py-16 text-white text-center px-4 md:px-8">
+      <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12">
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 tracking-widest">
           SKILLS
         </span>
       </h2>
 
-      <div className="flex flex-wrap justify-center gap-6 px-4 max-w-4xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-4 sm:gap-6 px-4 max-w-4xl mx-auto">
         {skills.map((skill) => (
           <a
             key={skill.name}
             href={skill.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 hover:scale-110 transition-transform"
+            className="w-12 h-12 sm:w-16 sm:h-16 hover:scale-110 transition-transform"
           >
             <img
               src={skill.image}
